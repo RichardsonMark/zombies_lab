@@ -26,6 +26,7 @@ def create_human():
     human_repository.save(new_human)
     return redirect("/humans")
 
+
 # EDIT
 @humans_blueprint.route("/humans/<id>/edit")
 def edit_human(id):
